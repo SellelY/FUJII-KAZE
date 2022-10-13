@@ -1,7 +1,48 @@
+@font-face {
+    font-family: bungee-shade;
+    src: url(BungeeShade-Regular.ttf);
+}
+
+@font-face {
+    font-family: bungee-regular;
+    src: url(BungeeOutline-Regular.ttf);
+}
+
 body {
-    margin: 0px;
+    margin: 0;
+    padding: 0 5vw;
     background-image: url(images/jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+
+.font-shade {
+    color: white;
+    font-family: bungee-shade;
+    margin-top: -10px;
+    opacity: 0.9;
+    font-size: 60px;
+}
+
+.master {
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: barlow;
+
+}
+
+nav div {
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 15px;
+}
+
